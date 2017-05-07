@@ -1,0 +1,76 @@
+/* General Custom CSS */
+footer#socket.container {
+  background-color: #000;
+}
+
+@font-face {
+  font-family: 'entypo-fontello';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot');
+  src: url('../config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot') format('embedded-opentype'),
+  url('../config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff') format('woff'),
+  url('../config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.ttf') format('truetype');
+}
+
+.recentcomments a {
+  display: inline !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#top .avia-font-entypo-fontello,
+body .avia-font-entypo-fontello,
+html body [data-av_iconfont='entypo-fontello']:before {
+  font-family: 'entypo-fontello';
+}
+
+img#wpstats {
+  display: none
+}
+
+.tribe-events-list .tribe-events-loop .tribe-event-featured,
+.tribe-events-list #tribe-events-day.tribe-events-loop .tribe-event-featured,
+.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap,
+.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap:hover {
+  background-color: #0ea0d7;
+}
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured {
+  background-color: #0ea0d7;
+}
+.tribe-events-list-widget .tribe-event-featured,
+.tribe-events-venue-widget .tribe-event-featured,
+.tribe-mini-calendar-list-wrapper .tribe-event-featured,
+.tribe-events-adv-list-widget .tribe-event-featured .tribe-mini-calendar-event {
+  background-color: #0ea0d7;
+}
+.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single {
+  background-color: rgba(14, 160, 215, .7);
+  border-color: #0ea0d7;
+}
+.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single:hover {
+  background-color: #0ea0d7;
+}
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
